@@ -24,3 +24,4 @@ namespace Fileorganizationproject
 }
 // 1 piyonu aldık 
 // zar at 6 gelirse çık gelmezse diğer oyuncuya sıra gelsin
+// linkedlist oluştur 

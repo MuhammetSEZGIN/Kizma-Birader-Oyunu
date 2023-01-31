@@ -382,7 +382,7 @@
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Location = new System.Drawing.Point(196, 142);
+            this.groupBox1.Location = new System.Drawing.Point(196, 159);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(328, 374);
             this.groupBox1.TabIndex = 12;
@@ -1386,12 +1386,12 @@
             this.BackgroundImage = global::Fileorganizationproject.Properties.Resources.kızamabiraderboard1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(704, 681);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.kaydetveçık);
             this.Controls.Add(this.M5);
             this.Controls.Add(this.M6);
             this.Controls.Add(this.M7);
             this.Controls.Add(this.M8);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.M9);
             this.Controls.Add(this.S5);
             this.Controls.Add(this.S6);

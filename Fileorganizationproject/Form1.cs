@@ -1,13 +1,12 @@
 using System;
 using System.Collections;
 using System.IO;
-using System.Text;
+
 namespace Fileorganizationproject
 {
     public partial class Form1 : Form
     {
 
-        // picturebox dizileri tahtayý oluþturmak için
         public static PictureBox[] baslamaPozýsyonu = new PictureBox[16];
         public static PictureBox[] tahtaPozisyonu = new PictureBox[52];
 
@@ -19,7 +18,7 @@ namespace Fileorganizationproject
 
         }
 
-        // devam butonu
+        
         private void button3_Click(object sender, EventArgs e)
         {
             oyunSýrasý[0] = kýrmýzý;
@@ -188,7 +187,10 @@ namespace Fileorganizationproject
                 
             }
 
-  
+            
+
+            
+            
 
             groupBox1.Hide();
         }
@@ -264,19 +266,15 @@ namespace Fileorganizationproject
         // oyun sýrasý belirlemek için kullanýlacak diziler
         static int[] atemp = new int[4];
         static string[] oyuncular = new string[4] { "krýmýzý", "yeþil", "sarý", "mavi" };
-        
+        StreamWriter File = new StreamWriter("sýra.txt");
 
 
         // sýrala butonu
         private void button2_Click(object sender, EventArgs e)
         {
 
-            if (File.Exists("sýra.txt"))
-            {
-                File.Delete("sýra.txt");
-            }
-
-            for (int i = 0; i < 4; i++)
+            
+            for(int i = 0; i < 4; i++)
             {
                 atemp[i] =Zar.zarAt();
             }
@@ -296,8 +294,6 @@ namespace Fileorganizationproject
                     
                 }
             }
-            for(int i = 0; i < 4; i++)
-                Console.WriteLine(atemp[i]); 
 
             string temp;
             int temp1;
@@ -305,7 +301,7 @@ namespace Fileorganizationproject
             {
                 for (int j = i + 1; j < oyuncuSayýsý; j++)
                 {
-                    if (atemp[i] < atemp[j]) // deðiþti büyüken küçüðe yapmak için > < oldu
+                    if (atemp[i] > atemp[j])
                     {
                         temp1 = atemp[i];
                         atemp[i] = atemp[j];
@@ -319,16 +315,13 @@ namespace Fileorganizationproject
                     }
                 }
             }
+            for(int i = 0; i < 4; i++)
+                Console.WriteLine(atemp[i]);
 
-            
             for (int i = 0; i < oyuncuSayýsý; i++)
             {
-                using (StreamWriter writer = new StreamWriter("sýra.txt", true))
-                {
-                    writer.Write(ýsýmler[i] + " ");
-                    writer.WriteLine(oyuncular[i]);
-                }
-               
+                File.Write(ýsýmler[i] + " ");
+                File.WriteLine(oyuncular[i]);
 
             }
             
@@ -358,7 +351,7 @@ namespace Fileorganizationproject
 
         private void basla_Click(object sender, EventArgs e)
         {
-            
+
 
             oyunSýrasý[0] = kýrmýzý;
             oyunSýrasý[1] = yeþil;
@@ -380,11 +373,11 @@ namespace Fileorganizationproject
             sarý.ýsým = ýsýmler[2];
             mavi.ýsým = ýsýmler[3];
 
-            // piyon resimlerini diziye atama
+            
+
             piyonResimleri[0] = kýrmýzýImageList; piyonResimleri[1] = yeþilÝmageList;
             piyonResimleri[2] =sarýÝmageList ; piyonResimleri[3] = maviÝmageList;
 
-            // picturebox larý diziye atama
             baslamaPozýsyonu[0] = K1; baslamaPozýsyonu[1] = K2; baslamaPozýsyonu[2] = K3; baslamaPozýsyonu[3] = K4;
             baslamaPozýsyonu[4] = Y1; baslamaPozýsyonu[5] = Y2; baslamaPozýsyonu[6] = Y3; baslamaPozýsyonu[7] = Y4;
             baslamaPozýsyonu[8] = S1; baslamaPozýsyonu[9] = S2; baslamaPozýsyonu[10] = S3; baslamaPozýsyonu[11] = S4;
@@ -461,8 +454,6 @@ namespace Fileorganizationproject
             
 
         }
-
-        // tahta yerini belirleyen unsurlar
         bool[] yerDoluMu= new bool[52];
         string[] yerIsmý = new string[52];
 
@@ -474,11 +465,7 @@ namespace Fileorganizationproject
                 
                 if (yerDoluMu[tahtayaGelecekDeðer]==false)
                 {
-                    using (StreamWriter writer = new StreamWriter("sýra.txt", true))
-                    {
-                        writer.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " yuvadan çýktý");
-                    }
-                    
+                    File.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " yuvadan çýktý");
                     //FileTahta.WriteLine(tahtayaGelecekDeðer + " " + oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý]);
 
                     baslamaPozýsyonu[baslama_pozisyonu+piyonSýrasý].Image = null;
@@ -497,11 +484,7 @@ namespace Fileorganizationproject
                         {
                             if (tahtaPozisyonu[tahtayaGelecekDeðer].Image == piyonResimleri[i/4].Images[j])
                             {
-                                using (StreamWriter writer = new StreamWriter("sýra.txt", true))
-                                {
-                                    writer.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " " + yerIsmý[tahtayaGelecekDeðer] + "'ý yedi");
-                                }
-                               
+                                File.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " " + yerIsmý[tahtayaGelecekDeðer] + "'ý yedi");
                                 //FileTahta.WriteLine(tahtayaGelecekDeðer + " " + oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý]);
 
                                 baslamaPozýsyonu[i].Image = piyonResimleri[i/4].Images[j]; // çýkýlacak yeri bulduk ve baþlama poziyonuna yerleþtýrdýk
@@ -521,11 +504,7 @@ namespace Fileorganizationproject
                 }
                 else
                 {
-                    using (StreamWriter writer = new StreamWriter("sýra.txt", true))
-                    {
-                        writer.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " yuvadan çýkamadý");
-                    }
-                    
+                    File.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " yuvadan çýkamadý");
 
                 }
                
@@ -538,16 +517,13 @@ namespace Fileorganizationproject
             if (oyunSýrasý[kaçýncýOyuncu].piyon_ev[piyonSýrasý] == false && oyunSýrasý[kaçýncýOyuncu].sýra == zarCount && oyunSýrasý[kaçýncýOyuncu].oyundaMý == true)
             {
                 
-                if (yerDoluMu[(oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar)%52] == false) // ileriki pozisyon boþ mu dolu mu kontrol et
+                if (yerDoluMu[(oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar)%51] == false) // ileriki pozisyon boþ mu dolu mu kontrol et
                 {
 
-                    int yeniDeðer = (oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar)%52;
-                    int eskiDeðer = (oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý]) %52;
-                    using (StreamWriter writer = new StreamWriter("sýra.txt", true))
-                    {
-                        writer.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " " + Zar.gelenZar + " kadar ilerledi ve " + yeniDeðer + " noktasýna ulaþtý");
+                    int yeniDeðer = (oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar)%51;
+                    int eskiDeðer = (oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý]) %51;
 
-                    }
+                    File.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " "+ Zar.gelenZar +" kadar ilerledi ve " + yeniDeðer+" noktasýna ulaþtý");
                     //FileTahta.WriteLine(yeniDeðer + " " + oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý]);
 
                     oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] = yeniDeðer; // pozisyonu zar kadar arttýr.
@@ -559,30 +535,24 @@ namespace Fileorganizationproject
                     yerDoluMu[yeniDeðer] = true; // yeni deðer dolu
                     yerIsmý[yeniDeðer] = oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý];
                 }
-                else if(yerDoluMu[(oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar) % 52] == true
-                    && yerIsmý[oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar] != oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[0]
+                else if(yerDoluMu[oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar] == true 
+                    && yerIsmý[oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar]!= oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[0]
                     && yerIsmý[oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar] != oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[1]
                     && yerIsmý[oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar] != oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[2]
-                    && yerIsmý[oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar] != oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[3]
-                    ) // yer doluysa ve kendi piyonu yoksa 
+                    && yerIsmý[oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar] != oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[3]) // yer doluysa ve kendi piyonu yoksa 
                    
                 {
-                    int yeniDeðer = (oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar)%52;
-                    int eskiDeðer = (oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý])%52;
+                    int yeniDeðer = (oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý] + Zar.gelenZar)%51;
+                    int eskiDeðer = (oyunSýrasý[kaçýncýOyuncu].piyon_kordinatlarý[piyonSýrasý])%51;
+                    
+                    
 
-                
                     for (int i = 0; i < 4; i++)
                         for (int j = 0; j < 4; j++)
                         {
                             if (tahtaPozisyonu[yeniDeðer].Image == piyonResimleri[i].Images[j]) // yeni deðerdeki piyonu bulma
                             {
-                                
-                              
-                                using (StreamWriter writer = new StreamWriter("sýra.txt", true))
-                                {
-                                    writer.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " " + yerIsmý[yeniDeðer] + "'ý yedi");
-
-                                }
+                                File.WriteLine(oyunSýrasý[kaçýncýOyuncu].piyonIsimleri[piyonSýrasý] + " " + yerIsmý[yeniDeðer] + "'ý yedi");
 
                                 baslamaPozýsyonu[4*i+j].Image = piyonResimleri[i].Images[j]; // yenilecek piyonu bulduk ve baþlama poziyonuna yerleþtýrdýk
                                 oyunSýrasý[i].piyon_ev[j] = true; // baþlangýcýný true olarak ayarladýk ki sonradan tekrar oyuna çýkabilsin
@@ -692,7 +662,7 @@ namespace Fileorganizationproject
 
         private void kaydetveçýk_Click(object sender, EventArgs e)
         {
-            //File.Close();
+            File.Close();
             StreamWriter FileTahta = new StreamWriter("tahta.txt");
             for(int i = 0; i < 4; i++)
             {

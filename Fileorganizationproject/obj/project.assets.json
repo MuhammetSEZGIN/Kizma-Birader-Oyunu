@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammet\\Desktop\\ödev yollanacak\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\Fileorganizationproject\\Fileorganizationproject.csproj",
+      "projectUniqueName": "C:\\Users\\Muhammet\\Desktop\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\Fileorganizationproject\\Fileorganizationproject.csproj",
       "projectName": "Fileorganizationproject",
-      "projectPath": "C:\\Users\\Muhammet\\Desktop\\ödev yollanacak\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\Fileorganizationproject\\Fileorganizationproject.csproj",
+      "projectPath": "C:\\Users\\Muhammet\\Desktop\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\Fileorganizationproject\\Fileorganizationproject.csproj",
       "packagesPath": "C:\\Users\\Muhammet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammet\\Desktop\\ödev yollanacak\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\Fileorganizationproject\\obj\\",
+      "outputPath": "C:\\Users\\Muhammet\\Desktop\\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\\Fileorganizationproject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -29,7 +29,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -56,7 +56,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -68,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
