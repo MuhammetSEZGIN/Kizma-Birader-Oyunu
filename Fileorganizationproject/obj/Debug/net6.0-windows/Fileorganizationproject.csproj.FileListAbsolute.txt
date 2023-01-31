@@ -1,0 +1,78 @@
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.exe
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.deps.json
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.runtimeconfig.json
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.pdb
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.AssemblyReference.cache
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Form1.resources
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.GenerateResource.cache
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.AssemblyInfoInputs.cache
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.AssemblyInfo.cs
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\refint\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.pdb
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.genruntimeconfig.cache
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\ref\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\fo proje\Fileorganizationproject\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Properties.Resources.resources
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.exe
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.deps.json
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.runtimeconfig.json
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.pdb
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.AssemblyReference.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Form1.resources
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Properties.Resources.resources
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.GenerateResource.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.AssemblyInfoInputs.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.AssemblyInfo.cs
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\refint\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.pdb
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.genruntimeconfig.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\ref\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.exe
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.deps.json
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.runtimeconfig.json
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.pdb
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.AssemblyReference.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Form1.resources
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Properties.Resources.resources
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.GenerateResource.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.AssemblyInfoInputs.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.AssemblyInfo.cs
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\refint\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.pdb
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.genruntimeconfig.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_SEZGİN\1306200042_Muhammet SEZGİN\Fileorganizationproject\obj\Debug\net6.0-windows\ref\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.exe
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.deps.json
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.runtimeconfig.json
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\bin\Debug\net6.0-windows\Fileorganizationproject.pdb
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.AssemblyReference.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Form1.resources
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Properties.Resources.resources
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.GenerateResource.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.AssemblyInfoInputs.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.AssemblyInfo.cs
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.CoreCompileInputs.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\refint\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.pdb
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.genruntimeconfig.cache
+C:\Users\Muhammet\Desktop\ödev yollanacak\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\1306200042_Muhammet_Sezgin( Bütün Dosyalar)\Fileorganizationproject\obj\Debug\net6.0-windows\ref\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.AssemblyReference.cache
+C:\Users\Muhammet\Desktop\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.Form1.resources
+C:\Users\Muhammet\Desktop\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.csproj.GenerateResource.cache
+C:\Users\Muhammet\Desktop\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\Fileorganizationproject\obj\Debug\net6.0-windows\refint\Fileorganizationproject.dll
+C:\Users\Muhammet\Desktop\Fileorganizationproject\obj\Debug\net6.0-windows\Fileorganizationproject.pdb
