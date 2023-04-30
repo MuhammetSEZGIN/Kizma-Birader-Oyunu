@@ -1,4 +1,4 @@
-# Kizma Birader Oyunu
+# Kizma Birader Board Game
  File organization project
  
  
